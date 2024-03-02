@@ -9,7 +9,7 @@ function searchMovie() {
       return;
     }
   
-    var url = "http://www.omdbapi.com/?t=" + encodeURIComponent(searchValue) + "&apikey=40fbffdb"+"&plot=full";
+    var url = "https://www.omdbapi.com/?t=" + encodeURIComponent(searchValue) + "&apikey=40fbffdb"+"&plot=full";
   
     fetch(url)
       .then(function(response) {
